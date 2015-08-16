@@ -72,11 +72,11 @@ header.main h1 {
   font-size: 4em;
   margin-bottom: 0;
 }
-h1 a:link, h1 a:visited {
+h1 a:link, h1 a:visited, article header h3 a:link, article header h3 a:visited {
   color: #6c6c6c;
   text-decoration: none;
 }
-h1 a:hover, h1 a:active {
+h1 a:hover, h1 a:active, article header h3 a:hover, article header h3 a:active {
   color: #262522;
   text-decoration: none;
 }
@@ -99,6 +99,9 @@ article {
 }
 article header h3 {
   margin-bottom:0;
+  font-family: Anders;
+  font-size: 2em;
+  font-weight: normal;
 }
 article header a:link, article header a:visited {
   text-decoration: none;

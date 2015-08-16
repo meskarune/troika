@@ -40,6 +40,9 @@ blockquote {
   border-left: solid .2em;
   padding-left: .5em;
 }
+dt {
+  font-weight: bold;
+}
 code {
   border: 1px solid #ccc;
   font-size: .8em;
@@ -140,6 +143,7 @@ nav.page a {
   color: #ececec;
   text-decoration: none;
   padding: .2em;
+  font-size: 1.5em;
 }
 #info {
   color: #ececec;
@@ -155,6 +159,9 @@ nav.page a {
 #info li {
   display: inline-block;
   padding: 0 1em;
+}
+#info nav {
+  font-size: 1.3em;
 }
 #info input {
   background: #151515;

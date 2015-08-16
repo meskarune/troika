@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Anders";
+  src: url("fonts/anders.eot");
+  src: url("fonts/anders.eot?#iefix") format("embedded-opentype"),
+       url("fonts/anders.woff") format("woff"),
+       url("fonts/anders.ttf") format("truetype"),
+       url("fonts/anders.svg#Anders") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Blue Theme */
+/*
+ * dark: #2d425f
+ * medium: #a5b6cd
+ * light: #b7c8dd
+ * background: #e9f1fc
+ */
+
+/* Global Styles */
+html {
+  border-top: .5rem solid #262522;
+  overflow-y: scroll;
+}
+body {
+  font-family: "Bitter", georgia;
+  color: #494746;
+  background: #ececec;
+}
+img {
+  max-width:100%;
+}
+.mfp-figure figure {
+  padding-top: 0;
+}
+ol ol {
+  list-style-type:upper-roman;
+}
+blockquote {
+  border-left: solid .2em;
+  padding-left: .5em;
+}
+code {
+  border: 1px solid #ccc;
+  font-size: .8em;
+}
+.center {
+  text-align: center;
+}
+hr {
+  border: none;
+  border-top: 2px solid #afadac;
+  color: #afadac;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 60%;
+  margin-bottom: 1em;
+}
+hr:after {
+  content: "— Δ —";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #ececec;
+}
+/* Header */
+header.main h1 {
+  font-family: "Anders", Helvetica, Arial;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+h1 a:link, h1 a:visited {
+  color: #6c6c6c;
+  text-decoration: none;
+}
+h1 a:hover, h1 a:active {
+  color: #262522;
+  text-decoration: none;
+}
+header.main h2 {
+  color: #b3b3b3;
+  /*color: #92918c;*/
+  font-weight: 100;
+}
+
+/* Main Content */
+#content {
+  width: 70%;
+  margin: 0 auto;
+  border-top: .1em solid #ddd;
+  font-size: 1.3em;
+}
+
+article {
+
+}
+article header h3 {
+  margin-bottom:0;
+}
+article header a:link, article header a:visited {
+  text-decoration: none;
+}
+.date {
+  color: #b3b3b3;
+  font-weight: normal;
+  margin-top:0;
+}
+
+/* Footer */
+#info {
+  color: #ececec;
+  background: #262522;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1em 0;
+  border: .3em solid #262522;
+}
+#info ul {
+  list-style-type: none;
+}
+#info li {
+  display: inline-block;
+  padding: 0 1em;
+}
+#info input {
+  background: #151515;
+  padding:.3em;
+  border:none;
+  outline:none;
+  box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
+}

@@ -103,6 +103,11 @@ article header h3 {
 article header a:link, article header a:visited {
   text-decoration: none;
 }
+article footer {
+  background: #ddd;
+  font-size: .8em;
+  padding: .2em 1em;
+}
 .date {
   color: #b3b3b3;
   font-weight: normal;

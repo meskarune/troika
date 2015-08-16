@@ -108,7 +108,14 @@ article header a:link, article header a:visited {
   font-weight: normal;
   margin-top:0;
 }
-
+article img {
+  padding: .3em;
+  background: #fff;
+  border: solid 1px #ddd;
+}
+.popup, .gallery a {
+  text-decoration: none;
+}
 /* Footer */
 #info {
   color: #ececec;

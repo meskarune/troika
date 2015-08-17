@@ -23,7 +23,7 @@ html {
   overflow-y: scroll;
 }
 body {
-  font-family: "Bitter", georgia;
+  font-family: "Open Sans", Verdana, Arial, sans-serif;
   color: #494746;
   background: #ececec;
 }
@@ -39,9 +39,10 @@ ol ol {
 blockquote {
   border-left: solid .2em;
   padding-left: .5em;
+  font-weight: 600;
 }
 dt {
-  font-weight: bold;
+  font-weight: 600;
 }
 code {
   border: 1px solid #ccc;
@@ -143,7 +144,7 @@ nav.page a {
   color: #ececec;
   text-decoration: none;
   padding: .2em;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 #info {
   color: #ececec;
